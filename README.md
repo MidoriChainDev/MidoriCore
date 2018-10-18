@@ -17,7 +17,7 @@ More information at [MidoriChain.com](https://midorichain.com/), our ANN thread 
 <tr><td>Name</td><td>Midori</td></tr>
 <tr><td>Ticker</td><td>MDR</td></tr>
 <tr><td>Type</td><td>Masternode + Proof of Stake</td></tr>
-<tr><td>Masternode Collateral</td><td>5000 MDR</td></tr>
+<tr><td>Masternode Collateral</td><td>5,000 MDR</td></tr>
 <tr><td>Block Time</td><td>60 Seconds</td></tr>
 <tr><td>Transaction Maturity</td><td>6 confirmations</td></tr>
 <tr><td>PoS Maturity</td><td>60 confirmations</td></tr>
