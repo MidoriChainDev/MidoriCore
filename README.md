@@ -24,7 +24,7 @@ More information at [MidoriChain.com](https://midorichain.com/), our ANN thread 
 <tr><td>Max Block Size</td><td>2 Mb</td></tr>
 <tr><td>Max Coin Supply</td><td>42,000,000 MDR</td></tr>
 <tr><td>Premine</td><td>2,520,000 MDR - 6%</td></tr>
-<tr><td>Family Tree</td><td>Bitcoin &raquo; Dash &raquo; PIVX &raquo; Midori</td></tr>
+<tr><td>Family Tree</td><td>Midori &laquo; PIVX &laquo; Dash &laquo; Bitcoin</td></tr>
 </table>
 
 
