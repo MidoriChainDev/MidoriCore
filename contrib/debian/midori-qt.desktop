@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Midori
+Comment=Midori P2P Cryptocurrency
+Comment[fr]=Midori, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Midori, eşten eşe kriptografik sanal para birimi
+Exec=midori-qt %u
+Terminal=false
+Type=Application
+Icon=midori128
+MimeType=x-scheme-handler/midori;
+Categories=Office;Finance;

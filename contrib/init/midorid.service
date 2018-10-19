@@ -1,0 +1,26 @@
+[Unit]
+Description=Midori's distributed currency daemon
+After=network.target
+
+[Service]
+User=midori
+Group=midori
+
+Type=forking
+PIDFile=/var/lib/midorid/midorid.pid
+
+ExecStart=/usr/bin/midorid -daemon -pid=/var/lib/midorid/midorid.pid \
+          -conf=/etc/midori/midori.conf -datadir=/var/lib/midorid
+
+ExecStop=-/usr/bin/midori-cli -conf=/etc/midori/midori.conf \
+         -datadir=/var/lib/midorid stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

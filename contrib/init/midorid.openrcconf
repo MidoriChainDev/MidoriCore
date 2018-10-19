@@ -1,0 +1,26 @@
+# /etc/conf.d/midorid: config file for /etc/init.d/midorid
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/midori/midori.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/midorid"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/midorid.pid"
+
+# Where to write midorid data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/midorid"
+
+# User and group to own midorid process
+#BITCOIND_USER="midori"
+#BITCOIND_GROUP="midori"
+
+# Path to midorid executable
+#BITCOIND_BIN="/usr/bin/midorid"
+
+# Nice value to run midorid under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
